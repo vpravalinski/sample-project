@@ -11,3 +11,7 @@ mkdir path/to/Vagrantfile
 cd path/to/Vagrantfile
 
 vagrant init ubuntu/bionic64
+
+vagrant up
+
+vagrant ssh
