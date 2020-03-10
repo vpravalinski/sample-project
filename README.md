@@ -17,6 +17,13 @@ vagrant up
 
 vagrant ssh
 
+
+# Finish the work
+
+<Ctrl + D>
+
+vagrant halt
+
 # Network is too slow
 
 copy file ubuntu-18.04-amd64-20200304.0.0.box
