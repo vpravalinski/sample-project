@@ -1,31 +1,33 @@
-# Useful links
+# Prerequisites
 
 https://www.virtualbox.org/wiki/Downloads
 
+
+# Start from here
+
 https://www.vagrantup.com/downloads.html
 
-# Useful commands
+Select your platform button, make sure arch is 64bits
+Install the package, say No for the reboot prompt after install (Windows)
 
-mkdir <path/to/Vagrantfile>
+# Run the command in a Shell session  (Mac/Linux Terminal, Windows PowerShell)
 
-cd <path/to/Vagrantfile>
+`mkdir **path/to/your_new_vm_config** `
 
-vagrant init ubuntu/bionic64
+`cd **path/to/your_new_vm_config** `
 
+`vagrant init generic/alpine312`
 
-vagrant up
+`vagrant up`
 
-vagrant ssh
-
+`vagrant ssh`
 
 # Finish the work
 
-<Ctrl + D>
+**Ctrl + D**
 
-vagrant halt
+`vagrant halt`
 
-# Network is too slow
+# Caution! It deletes the VM
 
-copy file ubuntu-18.04-amd64-20200304.0.0.box
-
-vagrant box add ubuntu/bionic64 /path/to/ubuntu-18.04-amd64-20200304.0.0.box
+`vagrant destroy`
